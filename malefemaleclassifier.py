@@ -8,5 +8,5 @@ Y=['male','female','female','male','male','male','male','female','male','female'
 #declare a variable say "classi" that will classify the data feeded to the program
 classi=tree.DecisionTreeClassifier()
 classi=classi.fit(X,Y)
-prediction=classi.predict([[177,70,43]])
+prediction=classi.predict([[177,70,43]])#we are asking the program to tell if the given details are for a male or a female
 print prediction[0]
